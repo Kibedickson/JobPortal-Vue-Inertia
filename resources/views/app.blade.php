@@ -29,21 +29,21 @@
 </head>
 <body>
     @inertia
-<a href="#" class="back-to-top">
-    <i class="lni lni-arrow-up"></i>
-</a>
+    <a href="#" class="back-to-top">
+        <i class="lni lni-arrow-up"></i>
+    </a>
 
-<div id="preloader">
-    <div class="loader" id="loader-1"></div>
-</div>
+    <div id="preloader">
+        <div class="loader" id="loader-1"></div>
+    </div>
 
-<script src="{{ asset('assets/js/jquery-min.js') }}"></script>
-<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.slicknav.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
-<script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
-<script src="{{ asset('assets/js/form-validator.min.js') }}"></script>
-<script src="{{ asset('assets/js/main.js') }}"></script>
-<script src="{{ asset('assets/js/toastr.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-min.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.slicknav.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('assets/js/form-validator.min.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/toastr.min.js') }}"></script>
 </body>
 </html>
