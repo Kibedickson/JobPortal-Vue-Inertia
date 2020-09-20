@@ -29,3 +29,6 @@ Route::get('register', 'Auth\RegisterController@showRegisterForm')
 
 Route::post('register', 'Auth\RegisterController@register');
 
+Route::get('/', 'HomeController@index')
+    ->name('home');
+
