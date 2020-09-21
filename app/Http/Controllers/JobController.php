@@ -14,9 +14,15 @@ class JobController extends Controller
     }
 
     public function index(){
-        return Inertia::render('Candidates/index', [
-            'jobs' => Job::all(),
-        ]);
+        if (auth()->user()->isCandidate()) {
+            return Inertia::render('Candidates/index', [
+                'jobs' => Job::all(),
+            ]);
+        }elseif (auth()->user()->isEmployer()){
+            return Inertia::render('Employers/index', [
+                'jobs' => Job::with('proposals')->where('employer_id', auth()->id())->get(),
+            ]);
+        }
     }
 
 }

@@ -19,4 +19,8 @@ class Job extends Model
         ];
     }
 
+    public function proposals(){
+        return $this->hasMany(Proposal::class, 'job_id');
+    }
+
 }
