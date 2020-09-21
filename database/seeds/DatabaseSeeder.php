@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
             RoleSeeder::class,
             JobSeeder::class,
             RoleUserSeeder::class,
+            ProposalSeeder::class,
             ]);
     }
 }
