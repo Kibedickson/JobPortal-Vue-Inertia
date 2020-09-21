@@ -29,6 +29,7 @@ class AppServiceProvider extends ServiceProvider
             if (Auth::user()) {
                 return [
                     'name' => Auth::user()->name,
+                    'role' => Auth::user()->roles()->pluck('title'),
                 ];
             }
         });

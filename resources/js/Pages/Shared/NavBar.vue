@@ -19,7 +19,7 @@
                                 <a class="nav-link" ><inertia-link href="/">Home</inertia-link></a>
                             </li>
 
-                            <li class="nav-item dropdown">
+                            <li v-if="$page.auth.user && $page.auth.user.role[0] == 'Candidate'" class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Candidates
                                 </a>
@@ -29,7 +29,7 @@
                                 </ul>
                             </li>
 
-                            <li class="nav-item dropdown">
+                            <li v-if="$page.auth.user && $page.auth.user.role[0] == 'Employer'" class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Employer
                                 </a>

@@ -16,8 +16,8 @@
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <h2 class="wow fadeInRight" data-wow-delay="0.4s">Find the job you <br> deserve</h2>
                                         <p class="wow fadeInRight" data-wow-delay="0.6s">Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. <br> Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet.</p>
-                                        <a href="jobs" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">See our jobs</a>
-                                        <a href="jobs" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Search jobs</a>
+                                        <inertia-link href="jobs" class="btn btn-lg btn-common btn-effect wow fadeInRight" data-wow-delay="0.9s">See our jobs</inertia-link>
+                                        <inertia-link href="jobs" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Search jobs</inertia-link>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
                                         <div class="img-wrapper wow fadeInUp" data-wow-delay="0.6s">
@@ -34,7 +34,7 @@
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <h2 class="wow fadeInUp" data-wow-delay="0.4s">100+ Jobs waiting <br>for you!</h2>
                                         <p class="wow fadeInUp" data-wow-delay="0.6s">Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. <br> Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet.</p>
-                                        <a href="jobs" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-wow-delay="0.9s">See our jobs</a>
+                                        <inertia-link href="jobs" class="btn btn-lg btn-common btn-effect wow fadeInUp" data-wow-delay="0.9s">See our jobs</inertia-link>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
                                         <div class="img-wrapper wow fadeInUp" data-wow-delay="0.6s">
@@ -51,7 +51,7 @@
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <h2 class="wow fadeInRight" data-wow-delay="0.4s">Post a job and hunt <br> amazing talents</h2>
                                         <p class="wow fadeInRight" data-wow-delay="0.6s">Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. <br> Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet.</p>
-                                        <a href="jobs/create" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Post Job</a>
+                                        <inertia-link href="jobs/create" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Post Job</inertia-link>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
                                         <div class="img-wrapper wow fadeInUp" data-wow-delay="0.6s">
@@ -82,7 +82,7 @@
                                 <h5>I'm</h5>
                                 <h3>Employer!</h3>
                                 <p>Post a job to tell us about your project. We'll quickly match you with <br> the right jobseeker.</p>
-                                <a href="jobs/create" class="btn btn-border-filled">Post a Job</a>
+                                <inertia-link href="jobs/create" class="btn btn-border-filled">Post a Job</inertia-link>
                             </div>
                             <div class="img-thumb">
                                 <i class="lni lni-users"></i>
@@ -95,7 +95,7 @@
                                 <h5>I'm</h5>
                                 <h3>Jobseeker!</h3>
                                 <p>Search the job you deserve. We'll quickly match you with <br> the right employer.</p>
-                                <a class="btn btn-border-filled"><inertia-link href="/browse">Browse</inertia-link></a>
+                                <inertia-link href="jobs" class="btn btn-border-filled">Browse</inertia-link>
                             </div>
                             <div class="img-thumb">
                                 <i class="lni lni-leaf"></i>
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                         <div class="col-12 text-center mt-4">
-                            <a href="jobs" class="btn btn-common">Browse All Jobs</a>
+                            <inertia-link href="jobs" class="btn btn-common">Browse All Jobs</inertia-link>
                         </div>
                     </div>
                 </div>

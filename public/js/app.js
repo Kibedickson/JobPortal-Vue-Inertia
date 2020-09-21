@@ -2596,33 +2596,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Shared/LoadingButton.vue?vue&type=script&lang=js&":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Shared/LoadingButton.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "LoadingButton",
-  props: {
-    loading: Boolean
-  }
-});
-
-/***/ }),
-
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Shared/NavBar.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Shared/NavBar.vue?vue&type=script&lang=js& ***!
@@ -39565,60 +39538,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { attrs: { id: "app" } }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("div", { attrs: { id: "apply" } }, [
-      _c("div", { staticClass: "container-fulid" }, [
-        _c("div", { staticClass: "row" }, [
-          _vm._m(1),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-lg-12 col-md-12 col-xs-12 no-padding" },
-            [
-              _c("div", { staticClass: "jobseeker item-box" }, [
-                _c("div", { staticClass: "content-inner" }, [
-                  _c("h5", [_vm._v("I'm")]),
-                  _vm._v(" "),
-                  _c("h3", [_vm._v("Jobseeker!")]),
-                  _vm._v(" "),
-                  _vm._m(2),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    { staticClass: "btn btn-border-filled" },
-                    [
-                      _c("inertia-link", { attrs: { href: "/browse" } }, [
-                        _vm._v("Browse")
-                      ])
-                    ],
-                    1
-                  )
-                ]),
-                _vm._v(" "),
-                _vm._m(3)
-              ])
-            ]
-          )
-        ])
-      ]),
-      _vm._v(" "),
-      _vm._m(4),
-      _vm._v(" "),
-      _vm._m(5),
-      _vm._v(" "),
-      _vm._m(6),
-      _vm._v(" "),
-      _vm._m(7)
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("header", [
+    _c("header", [
       _c("div", { attrs: { id: "carousel-area" } }, [
         _c(
           "div",
@@ -39627,29 +39547,7 @@ var staticRenderFns = [
             attrs: { id: "carousel-slider", "data-ride": "carousel" }
           },
           [
-            _c("ol", { staticClass: "carousel-indicators" }, [
-              _c("li", {
-                staticClass: "active",
-                attrs: {
-                  "data-target": "#carousel-slider",
-                  "data-slide-to": "0"
-                }
-              }),
-              _vm._v(" "),
-              _c("li", {
-                attrs: {
-                  "data-target": "#carousel-slider",
-                  "data-slide-to": "1"
-                }
-              }),
-              _vm._v(" "),
-              _c("li", {
-                attrs: {
-                  "data-target": "#carousel-slider",
-                  "data-slide-to": "2"
-                }
-              })
-            ]),
+            _vm._m(0),
             _vm._v(" "),
             _c(
               "div",
@@ -39668,38 +39566,12 @@ var staticRenderFns = [
                           staticClass: "col-lg-6 col-md-6 col-sm-12 col-xs-12"
                         },
                         [
-                          _c(
-                            "h2",
-                            {
-                              staticClass: "wow fadeInRight",
-                              attrs: { "data-wow-delay": "0.4s" }
-                            },
-                            [
-                              _vm._v("Find the job you "),
-                              _c("br"),
-                              _vm._v(" deserve")
-                            ]
-                          ),
+                          _vm._m(1),
+                          _vm._v(" "),
+                          _vm._m(2),
                           _vm._v(" "),
                           _c(
-                            "p",
-                            {
-                              staticClass: "wow fadeInRight",
-                              attrs: { "data-wow-delay": "0.6s" }
-                            },
-                            [
-                              _vm._v(
-                                "Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. "
-                              ),
-                              _c("br"),
-                              _vm._v(
-                                " Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet."
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "a",
+                            "inertia-link",
                             {
                               staticClass:
                                 "btn btn-lg btn-common btn-effect wow fadeInRight",
@@ -39709,7 +39581,7 @@ var staticRenderFns = [
                           ),
                           _vm._v(" "),
                           _c(
-                            "a",
+                            "inertia-link",
                             {
                               staticClass:
                                 "btn btn-lg btn-border wow fadeInRight",
@@ -39717,30 +39589,11 @@ var staticRenderFns = [
                             },
                             [_vm._v("Search jobs")]
                           )
-                        ]
+                        ],
+                        1
                       ),
                       _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "col-lg-6 col-md-6 col-sm-4 col-xs-12" },
-                        [
-                          _c(
-                            "div",
-                            {
-                              staticClass: "img-wrapper wow fadeInUp",
-                              attrs: { "data-wow-delay": "0.6s" }
-                            },
-                            [
-                              _c("img", {
-                                attrs: {
-                                  src: "/assets/img/slider/img-1.png",
-                                  alt: ""
-                                }
-                              })
-                            ]
-                          )
-                        ]
-                      )
+                      _vm._m(3)
                     ])
                   ])
                 ]),
@@ -39758,38 +39611,12 @@ var staticRenderFns = [
                           staticClass: "col-lg-6 col-md-6 col-sm-12 col-xs-12"
                         },
                         [
-                          _c(
-                            "h2",
-                            {
-                              staticClass: "wow fadeInUp",
-                              attrs: { "data-wow-delay": "0.4s" }
-                            },
-                            [
-                              _vm._v("100+ Jobs waiting "),
-                              _c("br"),
-                              _vm._v("for you!")
-                            ]
-                          ),
+                          _vm._m(4),
+                          _vm._v(" "),
+                          _vm._m(5),
                           _vm._v(" "),
                           _c(
-                            "p",
-                            {
-                              staticClass: "wow fadeInUp",
-                              attrs: { "data-wow-delay": "0.6s" }
-                            },
-                            [
-                              _vm._v(
-                                "Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. "
-                              ),
-                              _c("br"),
-                              _vm._v(
-                                " Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet."
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "a",
+                            "inertia-link",
                             {
                               staticClass:
                                 "btn btn-lg btn-common btn-effect wow fadeInUp",
@@ -39797,30 +39624,11 @@ var staticRenderFns = [
                             },
                             [_vm._v("See our jobs")]
                           )
-                        ]
+                        ],
+                        1
                       ),
                       _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "col-lg-6 col-md-6 col-sm-4 col-xs-12" },
-                        [
-                          _c(
-                            "div",
-                            {
-                              staticClass: "img-wrapper wow fadeInUp",
-                              attrs: { "data-wow-delay": "0.6s" }
-                            },
-                            [
-                              _c("img", {
-                                attrs: {
-                                  src: "/assets/img/slider/img-2.png",
-                                  alt: ""
-                                }
-                              })
-                            ]
-                          )
-                        ]
-                      )
+                      _vm._m(6)
                     ])
                   ])
                 ]),
@@ -39838,38 +39646,12 @@ var staticRenderFns = [
                           staticClass: "col-lg-6 col-md-6 col-sm-12 col-xs-12"
                         },
                         [
-                          _c(
-                            "h2",
-                            {
-                              staticClass: "wow fadeInRight",
-                              attrs: { "data-wow-delay": "0.4s" }
-                            },
-                            [
-                              _vm._v("Post a job and hunt "),
-                              _c("br"),
-                              _vm._v(" amazing talents")
-                            ]
-                          ),
+                          _vm._m(7),
+                          _vm._v(" "),
+                          _vm._m(8),
                           _vm._v(" "),
                           _c(
-                            "p",
-                            {
-                              staticClass: "wow fadeInRight",
-                              attrs: { "data-wow-delay": "0.6s" }
-                            },
-                            [
-                              _vm._v(
-                                "Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. "
-                              ),
-                              _c("br"),
-                              _vm._v(
-                                " Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet."
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c(
-                            "a",
+                            "inertia-link",
                             {
                               staticClass:
                                 "btn btn-lg btn-border wow fadeInRight",
@@ -39880,86 +39662,147 @@ var staticRenderFns = [
                             },
                             [_vm._v("Post Job")]
                           )
-                        ]
+                        ],
+                        1
                       ),
                       _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "col-lg-6 col-md-6 col-sm-4 col-xs-12" },
-                        [
-                          _c(
-                            "div",
-                            {
-                              staticClass: "img-wrapper wow fadeInUp",
-                              attrs: { "data-wow-delay": "0.6s" }
-                            },
-                            [
-                              _c("img", {
-                                attrs: {
-                                  src: "/assets/img/slider/img-3.png",
-                                  alt: ""
-                                }
-                              })
-                            ]
-                          )
-                        ]
-                      )
+                      _vm._m(9)
                     ])
                   ])
                 ]),
                 _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "carousel-control-prev",
-                    attrs: {
-                      href: "#carousel-slider",
-                      role: "button",
-                      "data-slide": "prev"
-                    }
-                  },
-                  [
-                    _c(
-                      "span",
-                      {
-                        staticClass: "carousel-control",
-                        attrs: { "aria-hidden": "true" }
-                      },
-                      [_c("i", { staticClass: "lni lni-chevron-left" })]
-                    ),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
-                  ]
-                ),
+                _vm._m(10),
                 _vm._v(" "),
-                _c(
-                  "a",
-                  {
-                    staticClass: "carousel-control-next",
-                    attrs: {
-                      href: "#carousel-slider",
-                      role: "button",
-                      "data-slide": "next"
-                    }
-                  },
-                  [
-                    _c(
-                      "span",
-                      {
-                        staticClass: "carousel-control",
-                        attrs: { "aria-hidden": "true" }
-                      },
-                      [_c("i", { staticClass: "lni lni-chevron-right" })]
-                    ),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
-                  ]
-                )
+                _vm._m(11)
               ]
             )
           ]
         )
       ])
+    ]),
+    _vm._v(" "),
+    _c("div", { attrs: { id: "apply" } }, [
+      _c("div", { staticClass: "container-fulid" }, [
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-lg-12 col-md-12 col-xs-12 no-padding" },
+            [
+              _c("div", { staticClass: "recruiter item-box" }, [
+                _c(
+                  "div",
+                  { staticClass: "content-inner" },
+                  [
+                    _c("h5", [_vm._v("I'm")]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("Employer!")]),
+                    _vm._v(" "),
+                    _vm._m(12),
+                    _vm._v(" "),
+                    _c(
+                      "inertia-link",
+                      {
+                        staticClass: "btn btn-border-filled",
+                        attrs: { href: "jobs/create" }
+                      },
+                      [_vm._v("Post a Job")]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._m(13)
+              ])
+            ]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col-lg-12 col-md-12 col-xs-12 no-padding" },
+            [
+              _c("div", { staticClass: "jobseeker item-box" }, [
+                _c(
+                  "div",
+                  { staticClass: "content-inner" },
+                  [
+                    _c("h5", [_vm._v("I'm")]),
+                    _vm._v(" "),
+                    _c("h3", [_vm._v("Jobseeker!")]),
+                    _vm._v(" "),
+                    _vm._m(14),
+                    _vm._v(" "),
+                    _c(
+                      "inertia-link",
+                      {
+                        staticClass: "btn btn-border-filled",
+                        attrs: { href: "jobs" }
+                      },
+                      [_vm._v("Browse")]
+                    )
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _vm._m(15)
+              ])
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c(
+        "section",
+        { staticClass: "section bg-cyan", attrs: { id: "featured" } },
+        [
+          _c("div", { staticClass: "container" }, [
+            _vm._m(16),
+            _vm._v(" "),
+            _c("div", { staticClass: "row" }, [
+              _vm._m(17),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "col-12 text-center mt-4" },
+                [
+                  _c(
+                    "inertia-link",
+                    { staticClass: "btn btn-common", attrs: { href: "jobs" } },
+                    [_vm._v("Browse All Jobs")]
+                  )
+                ],
+                1
+              )
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _vm._m(18),
+      _vm._v(" "),
+      _vm._m(19),
+      _vm._v(" "),
+      _vm._m(20)
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ol", { staticClass: "carousel-indicators" }, [
+      _c("li", {
+        staticClass: "active",
+        attrs: { "data-target": "#carousel-slider", "data-slide-to": "0" }
+      }),
+      _vm._v(" "),
+      _c("li", {
+        attrs: { "data-target": "#carousel-slider", "data-slide-to": "1" }
+      }),
+      _vm._v(" "),
+      _c("li", {
+        attrs: { "data-target": "#carousel-slider", "data-slide-to": "2" }
+      })
     ])
   },
   function() {
@@ -39967,39 +39810,199 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c(
-      "div",
-      { staticClass: "col-lg-12 col-md-12 col-xs-12 no-padding" },
+      "h2",
+      { staticClass: "wow fadeInRight", attrs: { "data-wow-delay": "0.4s" } },
+      [_vm._v("Find the job you "), _c("br"), _vm._v(" deserve")]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "p",
+      { staticClass: "wow fadeInRight", attrs: { "data-wow-delay": "0.6s" } },
       [
-        _c("div", { staticClass: "recruiter item-box" }, [
-          _c("div", { staticClass: "content-inner" }, [
-            _c("h5", [_vm._v("I'm")]),
-            _vm._v(" "),
-            _c("h3", [_vm._v("Employer!")]),
-            _vm._v(" "),
-            _c("p", [
-              _vm._v(
-                "Post a job to tell us about your project. We'll quickly match you with "
-              ),
-              _c("br"),
-              _vm._v(" the right jobseeker.")
-            ]),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                staticClass: "btn btn-border-filled",
-                attrs: { href: "jobs/create" }
-              },
-              [_vm._v("Post a Job")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "img-thumb" }, [
-            _c("i", { staticClass: "lni lni-users" })
-          ])
-        ])
+        _vm._v(
+          "Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. "
+        ),
+        _c("br"),
+        _vm._v(
+          " Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet."
+        )
       ]
     )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-4 col-xs-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "img-wrapper wow fadeInUp",
+          attrs: { "data-wow-delay": "0.6s" }
+        },
+        [_c("img", { attrs: { src: "/assets/img/slider/img-1.png", alt: "" } })]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "h2",
+      { staticClass: "wow fadeInUp", attrs: { "data-wow-delay": "0.4s" } },
+      [_vm._v("100+ Jobs waiting "), _c("br"), _vm._v("for you!")]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "p",
+      { staticClass: "wow fadeInUp", attrs: { "data-wow-delay": "0.6s" } },
+      [
+        _vm._v(
+          "Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. "
+        ),
+        _c("br"),
+        _vm._v(
+          " Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet."
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-4 col-xs-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "img-wrapper wow fadeInUp",
+          attrs: { "data-wow-delay": "0.6s" }
+        },
+        [_c("img", { attrs: { src: "/assets/img/slider/img-2.png", alt: "" } })]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "h2",
+      { staticClass: "wow fadeInRight", attrs: { "data-wow-delay": "0.4s" } },
+      [_vm._v("Post a job and hunt "), _c("br"), _vm._v(" amazing talents")]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "p",
+      { staticClass: "wow fadeInRight", attrs: { "data-wow-delay": "0.6s" } },
+      [
+        _vm._v(
+          "Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. "
+        ),
+        _c("br"),
+        _vm._v(
+          " Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet."
+        )
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-6 col-md-6 col-sm-4 col-xs-12" }, [
+      _c(
+        "div",
+        {
+          staticClass: "img-wrapper wow fadeInUp",
+          attrs: { "data-wow-delay": "0.6s" }
+        },
+        [_c("img", { attrs: { src: "/assets/img/slider/img-3.png", alt: "" } })]
+      )
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "carousel-control-prev",
+        attrs: {
+          href: "#carousel-slider",
+          role: "button",
+          "data-slide": "prev"
+        }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "carousel-control", attrs: { "aria-hidden": "true" } },
+          [_c("i", { staticClass: "lni lni-chevron-left" })]
+        ),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "a",
+      {
+        staticClass: "carousel-control-next",
+        attrs: {
+          href: "#carousel-slider",
+          role: "button",
+          "data-slide": "next"
+        }
+      },
+      [
+        _c(
+          "span",
+          { staticClass: "carousel-control", attrs: { "aria-hidden": "true" } },
+          [_c("i", { staticClass: "lni lni-chevron-right" })]
+        ),
+        _vm._v(" "),
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("p", [
+      _vm._v(
+        "Post a job to tell us about your project. We'll quickly match you with "
+      ),
+      _c("br"),
+      _vm._v(" the right jobseeker.")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "img-thumb" }, [
+      _c("i", { staticClass: "lni lni-users" })
+    ])
   },
   function() {
     var _vm = this
@@ -40023,66 +40026,50 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "section",
-      { staticClass: "section bg-cyan", attrs: { id: "featured" } },
-      [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "section-header" }, [
-            _c("h2", { staticClass: "section-title" }, [
-              _vm._v("Featured Jobs")
+    return _c("div", { staticClass: "section-header" }, [
+      _c("h2", { staticClass: "section-title" }, [_vm._v("Featured Jobs")]),
+      _vm._v(" "),
+      _c("p")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-4 col-md-6 col-xs-12" }, [
+      _c("div", { staticClass: "job-featured" }, [
+        _c("div", { staticClass: "icon" }, [
+          _c("img", {
+            attrs: { src: "/assets/img/features/img1.png", alt: "" }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("h3", [_vm._v("Web Developer")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "brand" }, [_vm._v("Category")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "tags" }, [
+            _c("span", [
+              _c("i", { staticClass: "lni lni-map-marker" }),
+              _vm._v(" Location")
             ]),
             _vm._v(" "),
-            _c("p")
+            _c("span", [
+              _c("i", { staticClass: "lni lni-user" }),
+              _vm._v("Name")
+            ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-4 col-md-6 col-xs-12" }, [
-              _c("div", { staticClass: "job-featured" }, [
-                _c("div", { staticClass: "icon" }, [
-                  _c("img", {
-                    attrs: { src: "/assets/img/features/img1.png", alt: "" }
-                  })
-                ]),
-                _vm._v(" "),
-                _c("div", { staticClass: "content" }, [
-                  _c("h3", [_vm._v("Web Developer")]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "brand" }, [_vm._v("Category")]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "tags" }, [
-                    _c("span", [
-                      _c("i", { staticClass: "lni lni-map-marker" }),
-                      _vm._v(" Location")
-                    ]),
-                    _vm._v(" "),
-                    _c("span", [
-                      _c("i", { staticClass: "lni lni-user" }),
-                      _vm._v("Name")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "tags" }, [
-                    _c("span", [
-                      _c("i", { staticClass: "lni lni-calendar" }),
-                      _vm._v("Deadline")
-                    ])
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-12 text-center mt-4" }, [
-              _c(
-                "a",
-                { staticClass: "btn btn-common", attrs: { href: "jobs" } },
-                [_vm._v("Browse All Jobs")]
-              )
+          _c("div", { staticClass: "tags" }, [
+            _c("span", [
+              _c("i", { staticClass: "lni lni-calendar" }),
+              _vm._v("Deadline")
             ])
           ])
         ])
-      ]
-    )
+      ])
+    ])
   },
   function() {
     var _vm = this
@@ -40272,48 +40259,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Shared/LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true&":
-/*!******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Shared/LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true& ***!
-  \******************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "button",
-    { staticClass: "btn btn-common", attrs: { disabled: _vm.loading } },
-    [_vm._m(0)]
-  )
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("span", {
-        staticClass: "spinner-border spinner-border-sm",
-        attrs: { role: "status", "aria-hidden": "true" }
-      }),
-      _vm._v(" "),
-      _c("span", { staticClass: "sr-only" }, [_vm._v("Loading...")])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Shared/NavBar.vue?vue&type=template&id=86ef25be&scoped=true&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/Pages/Shared/NavBar.vue?vue&type=template&id=86ef25be&scoped=true& ***!
@@ -40379,85 +40324,91 @@ var render = function() {
                       )
                     ]),
                     _vm._v(" "),
-                    _c("li", { staticClass: "nav-item dropdown" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "nav-link dropdown-toggle",
-                          attrs: {
-                            href: "#",
-                            "data-toggle": "dropdown",
-                            "aria-haspopup": "true",
-                            "aria-expanded": "false"
-                          }
-                        },
-                        [
-                          _vm._v(
-                            "\n                                Candidates\n                            "
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("ul", { staticClass: "dropdown-menu" }, [
-                        _c("li", [
+                    _vm.$page.auth.user &&
+                    _vm.$page.auth.user.role[0] == "Candidate"
+                      ? _c("li", { staticClass: "nav-item dropdown" }, [
                           _c(
                             "a",
-                            { staticClass: "dropdown-item" },
+                            {
+                              staticClass: "nav-link dropdown-toggle",
+                              attrs: {
+                                href: "#",
+                                "data-toggle": "dropdown",
+                                "aria-haspopup": "true",
+                                "aria-expanded": "false"
+                              }
+                            },
                             [
-                              _c(
-                                "inertia-link",
-                                { attrs: { href: "/browse" } },
-                                [_vm._v("Browse Jobs")]
+                              _vm._v(
+                                "\n                                Candidates\n                            "
                               )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _vm._m(1)
-                      ])
-                    ]),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("ul", { staticClass: "dropdown-menu" }, [
+                            _c("li", [
+                              _c(
+                                "a",
+                                { staticClass: "dropdown-item" },
+                                [
+                                  _c(
+                                    "inertia-link",
+                                    { attrs: { href: "/browse" } },
+                                    [_vm._v("Browse Jobs")]
+                                  )
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _vm._m(1)
+                          ])
+                        ])
+                      : _vm._e(),
                     _vm._v(" "),
-                    _c("li", { staticClass: "nav-item dropdown" }, [
-                      _c(
-                        "a",
-                        {
-                          staticClass: "nav-link dropdown-toggle",
-                          attrs: {
-                            href: "#",
-                            "data-toggle": "dropdown",
-                            "aria-haspopup": "true",
-                            "aria-expanded": "false"
-                          }
-                        },
-                        [
-                          _vm._v(
-                            "\n                                Employer\n                            "
-                          )
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("ul", { staticClass: "dropdown-menu" }, [
-                        _vm._m(2),
-                        _vm._v(" "),
-                        _c("li", [
+                    _vm.$page.auth.user &&
+                    _vm.$page.auth.user.role[0] == "Employer"
+                      ? _c("li", { staticClass: "nav-item dropdown" }, [
                           _c(
                             "a",
-                            { staticClass: "dropdown-item" },
+                            {
+                              staticClass: "nav-link dropdown-toggle",
+                              attrs: {
+                                href: "#",
+                                "data-toggle": "dropdown",
+                                "aria-haspopup": "true",
+                                "aria-expanded": "false"
+                              }
+                            },
                             [
-                              _c(
-                                "inertia-link",
-                                { attrs: { href: "/browse" } },
-                                [_vm._v("Browse Jobs")]
+                              _vm._v(
+                                "\n                                Employer\n                            "
                               )
-                            ],
-                            1
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _vm._m(3)
-                      ])
-                    ]),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c("ul", { staticClass: "dropdown-menu" }, [
+                            _vm._m(2),
+                            _vm._v(" "),
+                            _c("li", [
+                              _c(
+                                "a",
+                                { staticClass: "dropdown-item" },
+                                [
+                                  _c(
+                                    "inertia-link",
+                                    { attrs: { href: "/browse" } },
+                                    [_vm._v("Browse Jobs")]
+                                  )
+                                ],
+                                1
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _vm._m(3)
+                          ])
+                        ])
+                      : _vm._e(),
                     _vm._v(" "),
                     _vm._m(4),
                     _vm._v(" "),
@@ -52857,8 +52808,6 @@ var map = {
 	"./Candidates/index.vue": "./resources/js/Pages/Candidates/index.vue",
 	"./Home": "./resources/js/Pages/Home.vue",
 	"./Home.vue": "./resources/js/Pages/Home.vue",
-	"./Shared/LoadingButton": "./resources/js/Pages/Shared/LoadingButton.vue",
-	"./Shared/LoadingButton.vue": "./resources/js/Pages/Shared/LoadingButton.vue",
 	"./Shared/NavBar": "./resources/js/Pages/Shared/NavBar.vue",
 	"./Shared/NavBar.vue": "./resources/js/Pages/Shared/NavBar.vue"
 };
@@ -53225,75 +53174,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_6a63e488_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_6a63e488_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Shared/LoadingButton.vue":
-/*!*****************************************************!*\
-  !*** ./resources/js/Pages/Shared/LoadingButton.vue ***!
-  \*****************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _LoadingButton_vue_vue_type_template_id_39ca5326_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true& */ "./resources/js/Pages/Shared/LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true&");
-/* harmony import */ var _LoadingButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./LoadingButton.vue?vue&type=script&lang=js& */ "./resources/js/Pages/Shared/LoadingButton.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _LoadingButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _LoadingButton_vue_vue_type_template_id_39ca5326_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _LoadingButton_vue_vue_type_template_id_39ca5326_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "39ca5326",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/Pages/Shared/LoadingButton.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Shared/LoadingButton.vue?vue&type=script&lang=js&":
-/*!******************************************************************************!*\
-  !*** ./resources/js/Pages/Shared/LoadingButton.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib??ref--4-0!../../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingButton.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Shared/LoadingButton.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingButton_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/Pages/Shared/LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true&":
-/*!************************************************************************************************!*\
-  !*** ./resources/js/Pages/Shared/LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true& ***!
-  \************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingButton_vue_vue_type_template_id_39ca5326_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Shared/LoadingButton.vue?vue&type=template&id=39ca5326&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingButton_vue_vue_type_template_id_39ca5326_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LoadingButton_vue_vue_type_template_id_39ca5326_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
