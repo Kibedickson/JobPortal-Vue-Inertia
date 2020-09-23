@@ -24,7 +24,7 @@
                                     Candidates
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"><inertia-link href="/browse">Browse Jobs</inertia-link></a></li>
+                                    <li><a class="dropdown-item"><inertia-link href="/jobs">Browse Jobs</inertia-link></a></li>
                                     <li><a class="dropdown-item " href="">Job Details</a></li>
                                 </ul>
                             </li>
@@ -35,7 +35,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="">Add Job</a></li>
-                                    <li><a class="dropdown-item"><inertia-link href="/browse">Browse Jobs</inertia-link></a></li>
+                                    <li><a class="dropdown-item"><inertia-link href="/jobs">Browse Jobs</inertia-link></a></li>
                                     <li><a class="dropdown-item" href="">Manage Applications</a></li>
                                 </ul>
                             </li>
@@ -73,7 +73,7 @@
                             </li>
 
                             <li class="button-group">
-                                <inertia-link href="/addjob"><a class=" button btn btn-common">Post a Job</a></inertia-link>
+                                <inertia-link href="/jobs/create"><a class=" button btn btn-common">Post a Job</a></inertia-link>
                             </li>
                         </ul>
                     </div>

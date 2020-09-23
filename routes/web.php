@@ -32,6 +32,12 @@ Route::post('register', 'Auth\RegisterController@register');
 
 Route::get('/', 'HomeController@index')
     ->name('home');
-Route::get('jobs', 'JobController@index');
+
+Route::get('jobs', 'JobController@index')->name('jobs');
+Route::get('jobs/create', 'JobController@create');
+Route::post('jobs', 'JobController@store');
+Route::delete('jobs/{job}', 'JobController@destroy');
+Route::patch('jobs/{job}', 'JobController@update')->name('jobs.update');
+Route::get('jobs/{job}/edit', 'JobController@edit')->name('jobs.edit');
 
 

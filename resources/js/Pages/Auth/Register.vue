@@ -61,7 +61,7 @@
                                     >
                                     <span class="text-danger" role="alert">
                                             <strong>{{ errors.name }}</strong>
-                                        </span>
+                                    </span>
                                 </div>
                             </div>
                                 <div class="form-group">

@@ -51,7 +51,7 @@
                                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                         <h2 class="wow fadeInRight" data-wow-delay="0.4s">Post a job and hunt <br> amazing talents</h2>
                                         <p class="wow fadeInRight" data-wow-delay="0.6s">Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. <br> Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet.</p>
-                                        <inertia-link href="jobs/create" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Post Job</inertia-link>
+                                        <inertia-link href="/jobs/create" class="btn btn-lg btn-border wow fadeInRight" data-wow-delay="1.2s">Post Job</inertia-link>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
                                         <div class="img-wrapper wow fadeInUp" data-wow-delay="0.6s">
@@ -82,7 +82,7 @@
                                 <h5>I'm</h5>
                                 <h3>Employer!</h3>
                                 <p>Post a job to tell us about your project. We'll quickly match you with <br> the right jobseeker.</p>
-                                <inertia-link href="jobs/create" class="btn btn-border-filled">Post a Job</inertia-link>
+                                <inertia-link href="/jobs/create" class="btn btn-border-filled">Post a Job</inertia-link>
                             </div>
                             <div class="img-thumb">
                                 <i class="lni lni-users"></i>
