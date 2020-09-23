@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/toastr.min.css') }}">
 </head>
 <body>
+    @routes
     @inertia
     <a href="#" class="back-to-top">
         <i class="lni lni-arrow-up"></i>
