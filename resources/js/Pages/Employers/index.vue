@@ -51,11 +51,10 @@
                                         <td>{{ job.location }}</td>
                                         <td>{{ job.deadline }}</td>
                                         <td><inertia-link href="" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">{{ job.proposals.length }}</inertia-link></td>
-                                        <td><inertia-link href="" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">Edit</inertia-link></td>
+                                        <td><inertia-link :href="route('jobs.edit', job.slug)" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">Edit</inertia-link></td>
                                         <td>
-                                            <form action="" method="Post">
-                                                <button class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">Delete</button>
-                                            </form>
+                                            <button v-on:click="destroy(job)" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">Delete
+                                            </button>
                                         </td>
                                     </tr>
                                     </tbody>
@@ -79,6 +78,16 @@ export default {
     layout: App,
     props: {
         jobs: Array,
+    },
+    data(){
+        return {
+        }
+    },
+    methods: {
+        destroy(job){
+            job._method = 'DELETE'
+            this.$inertia.post('/jobs/'+ job.slug, job)
+        }
     }
 }
 </script>
