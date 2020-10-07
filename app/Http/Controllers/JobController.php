@@ -70,6 +70,16 @@ class JobController extends Controller
         return redirect(route('jobs'));
     }
 
+    public function show(Job $job){
+
+        $job->load(['candidate','proposals', 'proposals.candidate']);
+
+        return Inertia::render('Employers/show', [
+            'job' => $job
+        ]);
+
+    }
+
     public function destroy(Job $job){
         $job->delete();
 

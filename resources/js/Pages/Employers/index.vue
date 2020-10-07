@@ -50,7 +50,7 @@
                                         <td>{{ job.description }}</td>
                                         <td>{{ job.location }}</td>
                                         <td>{{ job.deadline }}</td>
-                                        <td><inertia-link href="" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">{{ job.proposals.length }}</inertia-link></td>
+                                        <td><inertia-link :href="route('jobs.show', job.slug)" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">{{ job.proposals.length }}</inertia-link></td>
                                         <td><inertia-link :href="route('jobs.edit', job.slug)" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">Edit</inertia-link></td>
                                         <td>
                                             <button v-on:click="destroy(job)" class="btn btn-common" style="font-size: 10px; padding: 3px 10px; text-transform: capitalize;">Delete

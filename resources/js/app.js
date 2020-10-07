@@ -1,9 +1,19 @@
 import { InertiaApp } from "@inertiajs/inertia-vue"
 import Vue from 'vue'
 import route from 'ziggy'
+import Snotify, { SnotifyPosition } from 'vue-snotify'
 
 require('./bootstrap')
 Vue.use(InertiaApp)
+
+const options = {
+    toast: {
+        position: SnotifyPosition.rightTop
+    }
+}
+
+Vue.use(Snotify, options)
+
 Vue.config.productionTip = false
 
 Vue.mixin({
