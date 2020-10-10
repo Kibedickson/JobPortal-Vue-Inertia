@@ -20,8 +20,13 @@ class ProposalController extends Controller
         $job->update($data);
         $job->load(['candidate','proposals', 'proposals.candidate']);
 
+        $notification = array(
+            'message' => 'Job Applied Successfully!',
+            'alert-type' => 'success'
+        );
+
         return Inertia::render('Employers/show', [
-            'job' => $job
-        ]);
+            'job' => $job,
+        ])->with($notification);
     }
 }

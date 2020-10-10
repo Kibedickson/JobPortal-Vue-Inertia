@@ -1,18 +1,19 @@
 import { InertiaApp } from "@inertiajs/inertia-vue"
 import Vue from 'vue'
 import route from 'ziggy'
-import Snotify, { SnotifyPosition } from 'vue-snotify'
+import VueToastr from '@deveodk/vue-toastr'
 
 require('./bootstrap')
 Vue.use(InertiaApp)
 
 const options = {
     toast: {
-        position: SnotifyPosition.rightTop
+        defaultPosition: 'toast-top-left',
+        defaultTimeout: 3000
     }
 }
 
-Vue.use(Snotify, options)
+Vue.use(VueToastr, options)
 
 Vue.config.productionTip = false
 

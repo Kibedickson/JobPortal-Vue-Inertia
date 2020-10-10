@@ -30,6 +30,9 @@ class AppServiceProvider extends ServiceProvider
                 return [
                     'name' => Auth::user()->name,
                     'role' => Auth::user()->roles()->pluck('title'),
+                    'toast' => function () {
+                        return Session::get('toast');
+                    }
                 ];
             }
         });
