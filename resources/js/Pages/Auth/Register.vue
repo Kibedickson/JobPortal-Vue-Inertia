@@ -158,6 +158,9 @@ export default {
                 password_confirmation: this.form.password_confirmation
             })
             .then(() => this.loading = false)
+            .catch(error => {
+                console.log(error.response.status)
+            })
         }
     }
 
