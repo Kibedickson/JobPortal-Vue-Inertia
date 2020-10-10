@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "@deveodk/vue-toastr": "^1.1.0",
         "@inertiajs/inertia": "^0.2.3",
         "@inertiajs/inertia-vue": "^0.2.3",
         "vue-snotify": "^3.2.1",
