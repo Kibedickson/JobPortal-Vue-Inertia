@@ -11,7 +11,7 @@
                             <span class="lni lni-menu"></span>
                             <span class="lni lni-menu"></span>
                         </button>
-                        <a class="navbar-brand"><inertia-link href="/"><img src="assets/img/logo.png" alt=""></inertia-link></a>
+                        <a href="" class="navbar-brand"><img src="/assets/img/logo.png" alt="No image"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
@@ -54,7 +54,7 @@
                                     Profile
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="">My Resume</a></li>
+                                    <li><a class="dropdown-item" href=""><inertia-link href="/profiles">My Resume</inertia-link></a></li>
                                     <li><a class="dropdown-item" href="">Manage Applications</a></li>
                                 </ul>
                             </li>

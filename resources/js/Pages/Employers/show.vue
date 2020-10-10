@@ -87,6 +87,7 @@ export default {
     layout: App,
     props: {
         job: Object,
+        toast: Object,
     },
     data(){
       return {
@@ -99,7 +100,7 @@ export default {
             this.id.candidate_id = id
             this.loading = true
             this.$inertia.patch(this.route('proposals.update', slug), this.id)
-            .then(()=> this.loading = false)
+            .then(()=> this.loading = false, this.$toastr('success', 'i am a toastr success', 'hello'))
         }
     }
 }
