@@ -32,19 +32,17 @@
                                     <img src="assets/img/testimonial/img2.png" alt="">
                                 </div>
                                 <div class="btn float-right">
-                                    <a >Edit</a>
+                                    <inertia-link :href="route('profiles.edit', resume.id)">Edit</inertia-link>
                                 </div>
                                 <div class="author-info">
                                     <h3>{{ $page.auth.user.name }}</h3>
                                     <p>{{ resume.age }} years</p>
-                                    <p class="sub-title">{{ resume.title }}</p>
-                                    <p><span class="address"><i class="lni-map-marker"></i>{{ resume.location }} </span> </p>
-                                    <div class="social-link">
-                                        <ul>
-                                            <li>{{ resume.skill }}</li>
-                                        </ul>
-                                    </div>
                                 </div>
+                            </div>
+                            <div class="education item">
+                                <h4>{{ resume.title }}</h4>
+                                <p>Skills: {{ resume.skill }}</p>
+                                <p>Location: <span class="address"><i class="lni-map-marker"></i>{{ resume.location }} </span> </p>
                             </div>
                             <div class="education item">
                                 <h3>Education</h3>
