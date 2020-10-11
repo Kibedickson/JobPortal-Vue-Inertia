@@ -46,4 +46,6 @@ Route::patch('proposals/{job}', 'ProposalController@update')->name('proposals.up
 Route::get('profiles', 'ResumeController@index')->name('profiles');
 Route::get('profiles/create', 'ResumeController@create')->name('profiles/create');
 Route::post('profiles', 'ResumeController@store');
+Route::get('profiles/{resume}/edit', 'ResumeController@edit')->name('profiles.edit');
+Route::patch('profiles/{resume}', 'ResumeController@update')->name('profiles.update');
 
