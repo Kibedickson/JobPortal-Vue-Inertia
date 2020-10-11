@@ -44,4 +44,29 @@ class ResumeController extends Controller
         return redirect(route('profiles'));
 
     }
+
+    public function edit(Resume $resume){
+        return Inertia::render('Candidates/Profiles/edit', [
+            'resume' => $resume
+        ]);
+    }
+    public function update(Request $request, Resume $resume)
+    {
+        $data = $request->validate([
+            'title' => 'required',
+            'location' => 'required',
+            'age' => 'required',
+            'degree' => 'required',
+            'field' => 'required',
+            'school' => 'required',
+            'year' => 'required',
+            'skill' => 'required'
+        ]);
+
+        $data['user_id'] = auth()->id();
+
+        $resume->update($data);
+
+        return redirect(route('profiles'));
+    }
 }
