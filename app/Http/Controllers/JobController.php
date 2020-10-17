@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Job;
+use App\Proposal;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -16,7 +17,8 @@ class JobController extends Controller
     public function index(){
         if (auth()->user()->isCandidate()) {
             return Inertia::render('Candidates/index', [
-                'jobs' => Job::all(),
+                'jobs' => Job::with('proposals', 'employer')->get(),
+                'applied' => Proposal::where('candidate_id', auth()->id())->get()
             ]);
         }elseif (auth()->user()->isEmployer()){
             return Inertia::render('Employers/index', [
@@ -84,6 +86,19 @@ class JobController extends Controller
         $job->delete();
 
         return redirect(route('jobs'));
+    }
+    
+    public function details(Job $job){
+        
+        $proposal = Proposal::
+        where('candidate_id', auth()->id())
+        ->where('job_id', $job->id)->count();
+
+        return Inertia::render('Candidates/show', [
+            'job' => $job,
+            'proposal' => $proposal
+        ]);
+
     }
 
 }
