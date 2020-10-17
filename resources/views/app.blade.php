@@ -35,6 +35,21 @@
         <i class="lni lni-arrow-up"></i>
     </a>
 
+    <footer>
+        <div id="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="site-info text-center">
+                            <p>Designed and Developed by <a href="https://uideck.com" rel="nofollow">Dickson</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
     <div id="preloader">
         <div class="loader" id="loader-1"></div>
     </div>
