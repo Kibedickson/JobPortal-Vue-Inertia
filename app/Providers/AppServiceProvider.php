@@ -29,10 +29,8 @@ class AppServiceProvider extends ServiceProvider
             if (Auth::user()) {
                 return [
                     'name' => Auth::user()->name,
+                    'id' => Auth::user()->id,
                     'role' => Auth::user()->roles()->pluck('title'),
-                    'toast' => function () {
-                        return Session::get('toast');
-                    }
                 ];
             }
         });
