@@ -42,7 +42,9 @@ Route::delete('jobs/{job}', 'JobController@destroy');
 Route::patch('jobs/{job}', 'JobController@update')->name('jobs.update');
 Route::get('jobs/{job}/edit', 'JobController@edit')->name('jobs.edit');
 
+Route::post('proposals/{job}', 'ProposalController@store');
 Route::patch('proposals/{job}', 'ProposalController@update')->name('proposals.update');
+Route::delete('proposals/{job}', 'ProposalController@destroy');
 
 Route::get('profiles', 'ResumeController@index')->name('profiles');
 Route::get('profiles/create', 'ResumeController@create')->name('profiles/create');
