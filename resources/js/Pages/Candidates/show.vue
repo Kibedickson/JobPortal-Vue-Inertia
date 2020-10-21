@@ -30,8 +30,8 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-xs-12">
-                        <a v-if="proposal" href="#" class="btn btn-danger">Cancel</a>
-                        <a v-else href="#" class="btn btn-common">Apply job</a>
+                        <button v-on:click="cancel(job)" v-if="proposal" href="#" class="btn btn-danger">Cancel</button>
+                        <button v-on:click="apply(job)" v-else href="#" class="btn btn-common">Apply job</button>
                     </div>
                 </div>
             </div>
@@ -52,7 +52,8 @@
                                 <li>- Cocoa</li>
                                 <li>- ClojureScript</li>
                             </ul>
-                            <a href="#" class="btn btn-common">Apply job</a>
+                            <button v-on:click="cancel(job)" v-if="proposal" class="btn btn-danger">Cancel</button>
+                            <button v-on:click="apply(job)" v-else href="#" class="btn btn-common">Apply job</button>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12 col-xs-12">
@@ -100,6 +101,15 @@ export default {
             slug: "https://jobportal-vue-inertia.test/job/"+this.job.slug
         }
     },
+    methods: {
+        cancel(job){
+            job._method = 'DELETE'
+            this.$inertia.post('/proposals/'+ job.slug, job)
+        },
+        apply(job){
+            this.$inertia.post('/proposals/'+ job.slug)
+        }
+    }
 };
 </script>
 
