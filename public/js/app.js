@@ -3936,6 +3936,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   layout: _App__WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -3947,6 +3948,15 @@ __webpack_require__.r(__webpack_exports__);
     return {
       slug: "https://jobportal-vue-inertia.test/job/" + this.job.slug
     };
+  },
+  methods: {
+    cancel: function cancel(job) {
+      job._method = 'DELETE';
+      this.$inertia.post('/proposals/' + job.slug, job);
+    },
+    apply: function apply(job) {
+      this.$inertia.post('/proposals/' + job.slug);
+    }
   }
 });
 
@@ -43644,13 +43654,29 @@ var render = function() {
           _c("div", { staticClass: "col-lg-4 col-md-6 col-xs-12" }, [
             _vm.proposal
               ? _c(
-                  "a",
-                  { staticClass: "btn btn-danger", attrs: { href: "#" } },
+                  "button",
+                  {
+                    staticClass: "btn btn-danger",
+                    attrs: { href: "#" },
+                    on: {
+                      click: function($event) {
+                        return _vm.cancel(_vm.job)
+                      }
+                    }
+                  },
                   [_vm._v("Cancel")]
                 )
               : _c(
-                  "a",
-                  { staticClass: "btn btn-common", attrs: { href: "#" } },
+                  "button",
+                  {
+                    staticClass: "btn btn-common",
+                    attrs: { href: "#" },
+                    on: {
+                      click: function($event) {
+                        return _vm.apply(_vm.job)
+                      }
+                    }
+                  },
                   [_vm._v("Apply job")]
                 )
           ])
@@ -43671,9 +43697,32 @@ var render = function() {
               _vm._v(" "),
               _vm._m(1),
               _vm._v(" "),
-              _c("a", { staticClass: "btn btn-common", attrs: { href: "#" } }, [
-                _vm._v("Apply job")
-              ])
+              _vm.proposal
+                ? _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-danger",
+                      on: {
+                        click: function($event) {
+                          return _vm.cancel(_vm.job)
+                        }
+                      }
+                    },
+                    [_vm._v("Cancel")]
+                  )
+                : _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-common",
+                      attrs: { href: "#" },
+                      on: {
+                        click: function($event) {
+                          return _vm.apply(_vm.job)
+                        }
+                      }
+                    },
+                    [_vm._v("Apply job")]
+                  )
             ])
           ]),
           _vm._v(" "),
