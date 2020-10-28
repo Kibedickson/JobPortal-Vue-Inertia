@@ -16,7 +16,7 @@
                     <div class="collapse navbar-collapse" id="main-navbar">
                         <ul class="navbar-nav mr-auto w-100 justify-content-end">
                             <li class="nav-item active">
-                                <a class="nav-link" ><inertia-link href="/">Home</inertia-link></a>
+                                <inertia-link href="/" class="nav-link">Home</inertia-link>
                             </li>
 
                             <li v-if="$page.auth.user && $page.auth.user.role[0] == 'Candidate'" class="nav-item dropdown">
@@ -24,8 +24,7 @@
                                     Candidates
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item"><inertia-link href="/jobs">Browse Jobs</inertia-link></a></li>
-                                    <li><a class="dropdown-item " href="">Job Details</a></li>
+                                    <inertia-link href="/jobs" class="dropdown-item">Browse Jobs</inertia-link>
                                 </ul>
                             </li>
 
@@ -34,19 +33,17 @@
                                     Employer
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="">Add Job</a></li>
-                                    <li><a class="dropdown-item"><inertia-link href="/jobs">Browse Jobs</inertia-link></a></li>
-                                    <li><a class="dropdown-item" href="">Manage Applications</a></li>
-                                </ul>
+                                    <li><inertia-link class="dropdown-item" href="/jobs/create">Add Job</inertia-link></li>
+                                    <li><inertia-link class="dropdown-item" href="/jobs">Browse Jobs</inertia-link></li>                                </ul>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="">About</a>
+                                <inertia-link class="nav-link" href="">About</inertia-link>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">
+                                <inertia-link class="nav-link" href="">
                                     Contact
-                                </a>
+                                </inertia-link>
                             </li>
 
                             <li class="nav-item dropdown">
@@ -54,8 +51,7 @@
                                     Profile
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href=""><inertia-link href="/profiles">My Resume</inertia-link></a></li>
-                                    <li><a class="dropdown-item" href="">Manage Applications</a></li>
+                                    <li><inertia-link class="dropdown-item" href="/profiles">My Resume</inertia-link></li>
                                 </ul>
                             </li>
 

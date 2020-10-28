@@ -7,14 +7,16 @@
 
 <script>
 import NavBar from "./Shared/NavBar";
+import Toast from "./Shared/Toast"
 export default {
     name: "App",
     components: {
-        'navbar': NavBar
+        'navbar': NavBar,
+        'toast': Toast
     }
 }
 </script>
 
 <style scoped>
-
+    
 </style>

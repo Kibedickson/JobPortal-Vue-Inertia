@@ -19,16 +19,8 @@ class ProposalController extends Controller
             'candidate_id' => 'required',
         ]);
         $job->update($data);
-        $job->load(['candidate','proposals', 'proposals.candidate']);
 
-        $notification = array(
-            'message' => 'Job Applied Successfully!',
-            'alert-type' => 'success'
-        );
-
-        return Inertia::render('Employers/show', [
-            'job' => $job,
-        ])->with($notification);
+        return redirect(route('jobs'))->with(['toast' => ['message' => 'Candidated Updated']]);
     }
 
     public function destroy(Job $job){

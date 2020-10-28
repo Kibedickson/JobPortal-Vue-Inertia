@@ -25,8 +25,8 @@
                                 <h3>{{ job.title }}</h3>
                                 <p class="brand">{{ job.category}}</p>
                                 <div class="tags">
-                                    <span><i class="lni-map-marker"></i> {{ job.location }}</span>
-                                    <span ><i class="lni-user"></i>{{ job.employer.name }}</span>
+                                    <span><i class="lni lni-map-marker"></i> {{ job.location }}</span>
+                                    <span ><i class="lni lni-user"></i>{{ job.employer.name }}</span>
                                 </div>
                                 <inertia-link :href="route('jobs.details', job.slug)"><span class="full-time">View</span></inertia-link>
                             </div>

@@ -1,19 +1,9 @@
 import { InertiaApp } from "@inertiajs/inertia-vue"
 import Vue from 'vue'
 import route from 'ziggy'
-import VueToastr from '@deveodk/vue-toastr'
 
 require('./bootstrap')
 Vue.use(InertiaApp)
-
-const options = {
-    toast: {
-        defaultPosition: 'toast-top-left',
-        defaultTimeout: 3000
-    }
-}
-
-Vue.use(VueToastr, options)
 
 Vue.config.productionTip = false
 
